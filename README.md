@@ -6,7 +6,7 @@ Terraform / OpenTofu module for configuring AWS budgets.
 
 ```terraform
 module "aws_budgets" {
-    source  = "voidsolutionsorg/budgets/aws
+    source  = "voidsolutionsorg/budgets/aws"
     version = "1.0.0"
 
     name         = "example"
